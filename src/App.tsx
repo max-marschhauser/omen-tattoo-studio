@@ -1,11 +1,12 @@
 import "./app.scss";
-import Navbar from "./navbar/Navbar";
+import Navbar from "./home/Navbar";
+import Home from "./home/Home";
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<p className="homePageQuote">Turn and face the strange.</p>
+			<Home />
 		</>
 	);
 }

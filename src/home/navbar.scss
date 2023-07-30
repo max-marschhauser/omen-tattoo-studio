@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+
 .navbar {
 	position: relative;
 	top: 5rem;
@@ -6,6 +8,8 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+
+	user-select: none;
 
 	&::before {
 		content: "";

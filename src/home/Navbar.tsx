@@ -5,8 +5,8 @@ import OmenLogo from "../assets/images/OMEN logo.png";
 export default function Navbar() {
 	return (
 		<nav className="navbar">
-			<a href="#">PORTFOLIO</a>
-			<a href="#">STUDIO</a>
+			<a href="#">RADOVI</a>
+			<a href="#">DIZAJN</a>
 			<a>
 				<img src={OmenLogo} alt="Omen logo" />
 			</a>
