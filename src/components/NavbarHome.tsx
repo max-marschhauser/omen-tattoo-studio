@@ -7,9 +7,7 @@ export default function NavbarHome() {
 		<nav className="navbar-home">
 			<NavLink to="/radovi">RADOVI</NavLink>
 			<NavLink to="/dizajn">DIZAJN</NavLink>
-			<NavLink to="/">
-				<img src={OmenLogo} alt="Omen logo" />
-			</NavLink>
+			<img src={OmenLogo} alt="Omen logo" />
 			<NavLink to="/umjetnica">UMJETNICA</NavLink>
 			<NavLink to="/kontakt">KONTAKT</NavLink>
 		</nav>

@@ -16,6 +16,8 @@ body {
 	background-color: var(--color-background);
 }
 
-div {
-	color: white;
+::selection {
+	background-color: var(--color-gray);
+
+	color: var(--color-background);
 }

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import OmenLogo from "../assets/images/OMEN logo.png";
 import "./navbar.scss";
 
-export default function NavbarHome() {
+export default function NavbarPages() {
 	return (
 		<nav className="navbar-pages">
 			<NavLink to="/radovi">RADOVI</NavLink>
