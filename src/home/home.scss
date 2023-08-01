@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
+.full-screen {
+	height: calc(100vh - 2.4rem);
+}
+
 .homePageQuote {
 	margin-top: 10rem;
 	margin-inline: auto;
