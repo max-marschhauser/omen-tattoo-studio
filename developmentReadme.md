@@ -1,1 +1,3 @@
-Create React App npm install npm start
+Vite
+npm install
+npm run dev
