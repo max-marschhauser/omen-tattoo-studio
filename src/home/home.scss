@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
 .full-screen {
-	height: calc(100vh - 2.4rem);
+	height: calc(100dvh);
+
+	background-image: radial-gradient(var(--color-background), var(--color-black));
 }
 
 .homePageQuote {
