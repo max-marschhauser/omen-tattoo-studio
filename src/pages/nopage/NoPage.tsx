@@ -8,7 +8,6 @@ export default function NoPage() {
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">NOPAGE</h1>
 				<div>page content</div>
 			</main>
 		</>

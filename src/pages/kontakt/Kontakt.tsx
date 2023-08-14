@@ -8,7 +8,6 @@ export default function Kontakt() {
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">KONTAKT</h1>
 				<div>page content</div>
 			</main>
 		</>

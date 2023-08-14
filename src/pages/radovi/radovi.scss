@@ -1,0 +1,23 @@
+.title-images {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	background-color: gray;
+
+	img {
+		display: block;
+
+		width: 100%;
+		aspect-ratio: 9 / 9;
+
+		filter: grayscale(100%);
+
+		transition: all 0.35s ease;
+
+		cursor: pointer;
+
+		&:hover {
+			filter: grayscale(0%);
+		}
+	}
+}

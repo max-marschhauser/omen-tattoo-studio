@@ -11,7 +11,6 @@ export default function Savjeti() {
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">SAVJETI</h1>
 				<div className="expandable-items">
 					{dataSavjeti.map((item) => {
 						return <Expandable key={item.id} id={item.id} title={item.title} subtext={item.subtext} />;

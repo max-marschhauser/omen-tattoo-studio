@@ -8,7 +8,6 @@ export default function Umjetnica() {
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">UMJETNICA</h1>
 				<div>page content</div>
 			</main>
 		</>
