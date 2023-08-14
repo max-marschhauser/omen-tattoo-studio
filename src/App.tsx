@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./layout/Layout.tsx";
 
-import Home from "./home/Home.tsx";
+import Home from "./pages/home/Home.tsx";
 import Radovi from "./pages/radovi/Radovi.tsx";
 import Savjeti from "./pages/savjeti/Savjeti.tsx";
 import Umjetnica from "./pages/umjetnica/Umjetnica.tsx";

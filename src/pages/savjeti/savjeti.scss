@@ -1,4 +1,6 @@
 .expandable-items {
+	padding-bottom: 2rem;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -10,30 +12,44 @@
 	.expandable-item {
 		width: 100%;
 
-		.collapsible-button {
-			padding: 1rem;
+		cursor: pointer;
+
+		button {
+			border-top-left-radius: 1rem;
+			border-top-right-radius: 1rem;
 			width: 100%;
+			padding-block: 1rem;
+			padding-inline: 2rem;
 
-			background-color: var(--color-gray);
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
 
-			color: #444;
-			font-size: 1rem;
+			background-image: linear-gradient(var(--color-background-home), var(--color-black));
+			outline: none;
+
+			color: var(--color-white);
+			font-size: 1.5rem;
+			font-family: "Poiret One", cursive;
 			text-align: left;
 
 			cursor: pointer;
+
+			h2 {
+				display: inline;
+			}
 		}
 
-		.content {
-			padding: 1rem 2rem;
-			background-color: lightgray;
-		}
+		p {
+			padding-block: 1rem;
+			padding-inline: 2rem;
 
-		.opened {
-			display: block;
-		}
+			background-color: black;
 
-		.closed {
-			display: none;
+			color: var(--color-white);
+			font-family: "Poiret One", cursive;
+			font-size: 1.5rem;
 		}
 	}
 }

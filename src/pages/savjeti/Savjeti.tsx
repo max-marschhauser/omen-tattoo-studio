@@ -1,43 +1,21 @@
-import { useState } from "react";
+import NavbarPages from "../../layout/navbar/NavbarPages.tsx";
+import Expandable from "./components/expandable.tsx";
 
-import NavbarPages from "../../navbar/NavbarPages.tsx";
+import dataSavjeti from "../../data/dataSavjeti.ts";
 
 import "../pages.scss";
 import "./savjeti.scss";
 
 export default function Savjeti() {
-	const [opened, setOpened] = useState(false);
-
 	return (
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">Savjeti</h1>
+				<h1 className="page-title">SAVJETI</h1>
 				<div className="expandable-items">
-					<div className="expandable-item">
-						<button type="button" className="collapsible-button" onClick={() => setOpened(!opened)}>
-							Button text
-						</button>
-						<div className={opened ? "opened content" : "closed content"}>
-							<p>Neki tekst </p>
-						</div>
-					</div>
-					<div className="expandable-item">
-						<button type="button" className="collapsible-button" onClick={() => setOpened(!opened)}>
-							Button text
-						</button>
-						<div className={opened ? "opened content" : "closed content"}>
-							<p>Neki tekst </p>
-						</div>
-					</div>
-					<div className="expandable-item">
-						<button type="button" className="collapsible-button" onClick={() => setOpened(!opened)}>
-							Button text
-						</button>
-						<div className={opened ? "opened content" : "closed content"}>
-							<p>Neki tekst </p>
-						</div>
-					</div>
+					{dataSavjeti.map((item) => {
+						return <Expandable key={item.id} id={item.id} title={item.title} subtext={item.subtext} />;
+					})}
 				</div>
 			</main>
 		</>

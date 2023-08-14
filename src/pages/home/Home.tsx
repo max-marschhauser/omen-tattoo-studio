@@ -1,4 +1,4 @@
-import NavbarHome from "../navbar/NavbarHome.tsx";
+import NavbarHome from "../../layout/navbar/NavbarHome.tsx";
 import "./home.scss";
 
 export default function Home() {

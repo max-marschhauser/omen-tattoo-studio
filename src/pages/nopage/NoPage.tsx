@@ -1,4 +1,4 @@
-import NavbarPages from "../../navbar/NavbarPages.tsx";
+import NavbarPages from "../../layout/navbar/NavbarPages.tsx";
 
 import "../pages.scss";
 import "./noPage.scss";
@@ -8,7 +8,7 @@ export default function NoPage() {
 		<>
 			<NavbarPages />
 			<main className="page-content">
-				<h1 className="page-title">NoPage</h1>
+				<h1 className="page-title">NOPAGE</h1>
 				<div>page content</div>
 			</main>
 		</>
