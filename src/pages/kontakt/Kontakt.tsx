@@ -1,4 +1,4 @@
-import NavbarPages from "../../components/NavbarPages.tsx";
+import NavbarPages from "../../navbar/NavbarPages.tsx";
 import "../pages.scss";
 
 export default function Kontakt() {

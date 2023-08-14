@@ -1,4 +1,16 @@
-main {
+.page-content {
 	height: 80vh;
 	background: var(--color-gray);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.page-title {
+	padding-block: 2rem;
+
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
 }

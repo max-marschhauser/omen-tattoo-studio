@@ -5,13 +5,21 @@ import "./navbar.scss";
 export default function NavbarPages() {
 	return (
 		<nav className="navbar-pages">
-			<NavLink to="/radovi">RADOVI</NavLink>
-			<NavLink to="/dizajn">DIZAJN</NavLink>
+			<NavLink className="navbar-item" to="/radovi">
+				RADOVI
+			</NavLink>
+			<NavLink className="navbar-item" to="/savjeti">
+				SAVJETI
+			</NavLink>
 			<NavLink to="/" className="navbar-image-mobile">
 				<img src={OmenLogo} alt="Omen logo" />
 			</NavLink>
-			<NavLink to="/umjetnica">UMJETNICA</NavLink>
-			<NavLink to="/kontakt">KONTAKT</NavLink>
+			<NavLink className="navbar-item" to="/umjetnica">
+				UMJETNICA
+			</NavLink>
+			<NavLink className="navbar-item" to="/kontakt">
+				KONTAKT
+			</NavLink>
 		</nav>
 	);
 }

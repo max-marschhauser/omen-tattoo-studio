@@ -2,12 +2,15 @@
 
 .navbar-home,
 .navbar-pages {
+	padding-inline: 2rem;
+
 	position: relative;
 
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 5rem;
+
+	place-items: center;
 
 	user-select: none;
 
@@ -23,10 +26,9 @@
 		background-color: var(--color-white);
 	}
 
-	a {
-		z-index: 1;
+	.navbar-item {
+		height: min-content;
 
-		max-width: min-content;
 		border: 0.2rem solid var(--color-white);
 		border-radius: 100vmax;
 
@@ -36,6 +38,10 @@
 		color: var(--color-white);
 		font-family: "Poiret One", cursive;
 		text-align: center;
+	}
+
+	a {
+		z-index: 1;
 
 		transition: all 0.35s ease;
 
@@ -86,9 +92,4 @@
 	img {
 		width: 15rem;
 	}
-}
-
-.navbar-image-mobile {
-	border: none !important;
-	padding: 0 !important;
 }

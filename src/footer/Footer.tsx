@@ -16,12 +16,15 @@ export default function Footer() {
 			</ul>
 			<ul className="line-flex">
 				<li>
-					<a href="#" target="_blank" rel="noreferrer">
+					<a href="https://www.facebook.com/profile.php?id=61550127179883" target="_blank" rel="noreferrer">
 						<i className="fa-brands fa-facebook fa-3x"></i>
 					</a>
 				</li>
 				<li>
-					<a href="#" target="_blank" rel="noreferrer">
+					<a
+						href="https://www.instagram.com/tattoo_omen/?fbclid=IwAR1DM6Efs0LUPgHwxDEi5iYL0loJHaYTWbWpLDAeTGlTJANQbKk6zDdVuX8"
+						target="_blank"
+						rel="noreferrer">
 						<i className="fa-brands fa-instagram fa-3x"></i>
 					</a>
 				</li>
