@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import OmenLogo from "../../assets/images/OMEN-logo.png";
+import OmenLogo from "../../assets/images/logo/OMEN-logo.png";
 import "./navbar.scss";
 
 export default function NavbarPages() {

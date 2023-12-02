@@ -5,8 +5,8 @@ import NavbarPages from "../../layout/navbar/NavbarPages.tsx";
 import "../pages.scss";
 import "./radovi.scss";
 
-import Image1 from "../../assets/images/radovi/img1.png";
-import Image2 from "../../assets/images/radovi/img2.png";
+import naslovnaTattoo from "../../assets/images/radovi/naslovneSlike/naslovnaTattoo.png";
+import naslovnaDizajn from "../../assets/images/radovi/naslovneSlike/naslovnaDizajn.png";
 
 export default function Radovi() {
 	return (
@@ -15,10 +15,10 @@ export default function Radovi() {
 			<main className="page-content">
 				<div className="title-images">
 					<NavLink className="navbar-item" to="/radovi/tetovaze">
-						<img src={Image1} alt="Tetovaže" />
+						<img src={naslovnaTattoo} alt="Tetovaže" />
 					</NavLink>
 					<NavLink className="navbar-item" to="/radovi/dizajn">
-						<img src={Image2} alt="Dizajn" />
+						<img src={naslovnaDizajn} alt="Dizajn" />
 					</NavLink>
 				</div>
 			</main>

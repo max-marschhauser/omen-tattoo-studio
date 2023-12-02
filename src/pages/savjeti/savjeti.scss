@@ -44,7 +44,7 @@
 		}
 
 		p {
-			padding-block: 1rem;
+			padding-block: 2rem;
 			padding-inline: 2rem;
 
 			background-color: black;
@@ -52,6 +52,8 @@
 			color: var(--color-white);
 			font-family: "Poiret One", cursive;
 			font-size: 1.5rem;
+			line-height: 2rem;
+			text-decoration: none;
 		}
 	}
 }

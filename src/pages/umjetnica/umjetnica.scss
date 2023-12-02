@@ -1,0 +1,25 @@
+.imgAndTextUmjetnica {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	gap: 8rem;
+
+	img,
+	.text {
+		width: 50rem;
+	}
+
+	img {
+		border: 0.3rem solid var(--color-gray);
+		border-radius: 2rem;
+	}
+
+	.text {
+		font-size: 2rem;
+		line-height: 3rem;
+		text-decoration: none;
+		color: var(--color-white);
+		font-family: "Poiret One", cursive;
+		text-align: center;
+	}
+}
