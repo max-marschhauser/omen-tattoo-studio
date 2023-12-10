@@ -6,9 +6,9 @@ export default function Footer() {
 			<ul>
 				<li>OMEN</li>
 				<li>Studio za izradu tetovaža</li>
-				<li>Gundulićeva 118, 31000 Osijek</li>
-				<li>Tel. 091/918-9853</li>
-				<li>e-mail</li>
+				<li>Gundulićeva 118. Osijek</li>
+				<li>091/918-9853</li>
+				<li>omentattoo.osijek@gmail.com</li>
 			</ul>
 			<ul>
 				<li>Radno vrijeme po dogovoru</li>
